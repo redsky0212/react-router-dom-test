@@ -28,6 +28,11 @@
 
 ### Route 설정
 * &lt;Route exact path="/" component={Home} /&gt;
+* &lt;Route path="/about/:name?" component={About} /&gt;
+ - Route 에 컴포넌트를 설정하고 path에 경로를 설정한다.
+ - exact는 주소를 입력한것과 정확할때만 이동한다는 뜻.
+ - params를 넘길때는 위와같이 :name 과 같이 입력해서 넘긴다. "?"는 입력해도 되고 안해도 된다는 뜻.
+ - params를 받을때는 this.props.match.params.파람key명  방법으로 가져와 쓸 수 있다.
 
 
 
