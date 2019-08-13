@@ -4,6 +4,11 @@
 
  ### 스터디 참고 사이트 (https://kbennycc.blogspot.com/2019/02/0117-react-router.html)
 
+ ### create-react-app 설치
+   * ( create-react-app 프로젝트 폴더명 ) 을 이용하여 react 애플리케이션 프로젝트를 만든다.
+   * 설치된 파일중에 필요없는 파일을 지운다.
+   * index.js, Root.js, App.js 파일을 생성하여 최초 진입 시점의 내용 코딩을 시작한다.
+
  ### NODE_PATH 설정 으로 루트경로로 파일 불러오기 처리
    * "start": "NODE_PATH=src react-scripts start", "build": "NODE_PATH=src react-scripts build"
    * window에서는 npm i cross-env 설치 후 아래와 같이 셋팅
