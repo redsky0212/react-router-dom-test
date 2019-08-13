@@ -43,8 +43,15 @@
 
 ### 라우트 이동 및 추가기능 (NavLink)
 * NavLink 로 activeStyle, activeClassName설정을 해서 url이 일치 했을때 적용할 스타일을 설정할 수 있다.
+  - let activeStyle = {
+        color: 'green',
+        fontSize: '2rem'
+    };
   - &lt;NavLink exact to="/" activeStyle={activeStyle}&gt;홈&lt;/NavLink&gt;
-
+  
+### 자바스크립트로 라우팅 하기
+* 링크를 통하여 단순 페이지 이동이 아니라 javascript로 페이지 이동이 필요할 경우 아래와 같이 사용할 수 있다.
+  - this.props.history.push('/about');
 
 
 
