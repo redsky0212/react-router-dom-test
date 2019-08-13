@@ -12,7 +12,7 @@
  ### react-router-dom 설치
    * ( npm i react-router-dom ) 브라우저에서 사용되는 리액트 라우터.
    * BrowserRouter 를 이용하여 HTML5의 history API를 이용하여 새로고침 하지 않고 화면전환 가능하게 한다.
-   * <BrowserRouter><App /></BrowserRouter>
+   * &lt;BrowserRouter&gt;&lt;App /&gt;&lt;/BrowserRouter&gt;
  
  ### query-string 설치
    * url뒤에 ?a=111&b=444 형식으로 들어가는 정보 관련 라이브러리 설치 (npm i query-string) 
