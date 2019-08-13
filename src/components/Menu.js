@@ -29,6 +29,7 @@ class Menu extends Component {
                     <li><NavLink exact to="/" activeStyle={this.activeStyle}>홈</NavLink></li>
                     <li><NavLink exact to="/about" activeStyle={this.activeStyle}>About</NavLink></li>
                     <li><NavLink to="/about/이름" activeStyle={this.activeStyle}>이름 About</NavLink></li>
+                    <li><NavLink to="/posts" activeStyle={this.activeStyle}>Posts</NavLink></li>
                 </ul>
             </div>
         );

@@ -53,5 +53,8 @@
 * 링크를 통하여 단순 페이지 이동이 아니라 javascript로 페이지 이동이 필요할 경우 아래와 같이 사용할 수 있다.
   - this.props.history.push('/about');
 
+### 라우터 내부에서 라우터 사용하기
+* 소스의 containers/Post.js, containers/Posts.js 파일을 참조.
+
 
 
