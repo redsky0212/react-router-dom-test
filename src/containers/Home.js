@@ -21,7 +21,9 @@ class Home extends Component {
                 <h2>Home</h2>
                 <button onClick={() => {
                     this.props.history.push('/about/javascript');
-                }}>자바스크립트 라우팅</button>
+                }}>
+                    자바스크립트 라우팅
+                </button>
             </div>
         );
     }
